@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: gold;
+    text-transform: uppercase;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #666;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.price.up {
+    color: green;
+}
+
+.price.down {
+    color: red;
+}
